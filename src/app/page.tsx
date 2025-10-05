@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import PrivacyAnalyzer from '@/components/PrivacyAnalyzer';
@@ -25,15 +26,15 @@ export default function HomePage() {
               </h1>
               <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed">
                 Every day you use apps and visit websites that collect your personal information.
-                Do you know how they use it? Our free privacy analyzer helps you understand
+                Do you know how they use it? Our free privacy policy analyser helps you understand
                 what&rsquo;s really happening with your data.
               </p>
 
-              {/* Privacy Analyzer - Moved to top */}
+              {/* Privacy Policy Analyser - Moved to top */}
               <div className="bg-white rounded-2xl shadow-xl border border-slate-200 p-6 mb-8">
                 <div className="text-center mb-6">
-                  <h3 className="text-xl font-bold text-slate-900 mb-2">Free Privacy Checker</h3>
-                  <p className="text-sm text-slate-600">Enter any website or app privacy policy URL to get an instant analysis</p>
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">Privacy Policy Analyser</h3>
+                  <p className="text-sm text-slate-600">Enter any website or app privacy policy URL to get an instant AI-powered analysis</p>
                 </div>
                 <div id="analyzer">
                   <PrivacyAnalyzer />
@@ -165,7 +166,7 @@ export default function HomePage() {
                   See exactly what information your browser reveals to every website you visit.
                 </p>
                 <Button variant="outline" size="sm" className="border-slate-600 text-white hover:bg-slate-700" asChild>
-                  <a href="/digital-fingerprint">Check Now →</a>
+                  <Link href="/digital-fingerprint">Check Now →</Link>
                 </Button>
               </CardContent>
             </Card>
@@ -180,7 +181,7 @@ export default function HomePage() {
                   Learn how privacy policies work and what to look for when reading them.
                 </p>
                 <Button variant="outline" size="sm" className="border-slate-600 text-white hover:bg-slate-700" asChild>
-                  <a href="/methodology">Learn More →</a>
+                  <Link href="/methodology">Learn More →</Link>
                 </Button>
               </CardContent>
             </Card>
@@ -195,7 +196,7 @@ export default function HomePage() {
                   Help us build better privacy tools and spread awareness about digital rights.
                 </p>
                 <Button variant="outline" size="sm" className="border-slate-600 text-white hover:bg-slate-700" asChild>
-                  <a href="/support">Get Involved →</a>
+                  <Link href="/support">Get Involved →</Link>
                 </Button>
               </CardContent>
             </Card>

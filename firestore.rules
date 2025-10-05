@@ -1,0 +1,23 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Default deny all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Analyses collection - read-only for all, write only for server
+    match /analyses/{domain} {
+      // Allow public read access (for displaying results)
+      allow read: if true;
+
+      // Deny all client-side writes (only server with Admin SDK can write)
+      allow write: if false;
+
+      // Rate limiting: prevent excessive reads from same user
+      // Note: This is handled by the API layer, but we keep rules strict
+    }
+  }
+}

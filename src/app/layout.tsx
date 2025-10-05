@@ -18,9 +18,9 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://privacyhub.in'),
-  title: "Know What Apps Do With Your Data | PrivacyHub.in",
-  description: "Free privacy checker for everyday users. Understand how the apps and websites you use daily handle your personal data. Learn to protect your digital privacy with simple, actionable tips.",
-  keywords: "privacy awareness, data privacy, personal data protection, app privacy, digital privacy, privacy education, GDPR rights, privacy policy checker, data security",
+  title: "Privacy Policy Analyser | PrivacyHub.in",
+  description: "Professional privacy policy analyser for everyday users. Understand how the apps and websites you use daily handle your personal data. Get detailed analysis of privacy policies with AI-powered insights.",
+  keywords: "privacy policy analyser, privacy policy analyzer, data privacy, personal data protection, app privacy, digital privacy, privacy education, GDPR compliance, CCPA compliance, privacy policy checker, data security",
   authors: [{ name: "PrivacyHub.in" }],
   icons: {
     icon: [
@@ -38,8 +38,8 @@ export const metadata: Metadata = {
   },
   manifest: '/site.webmanifest',
   openGraph: {
-    title: "Privacy Policy Analyzer | PrivacyHub.in",
-    description: "Professional privacy policy analysis powered by AI",
+    title: "Privacy Policy Analyser | PrivacyHub.in",
+    description: "Professional privacy policy analyser powered by AI. Get detailed analysis of GDPR, CCPA, and DPDP Act compliance.",
     type: "website",
     url: "https://privacyhub.in",
     images: [
@@ -53,8 +53,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Privacy Policy Analyzer | PrivacyHub.in",
-    description: "Professional privacy policy analysis powered by AI",
+    title: "Privacy Policy Analyser | PrivacyHub.in",
+    description: "Professional privacy policy analyser powered by AI. Get detailed analysis of GDPR, CCPA, and DPDP Act compliance.",
     images: ['/android-chrome-512x512.png'],
   },
 };

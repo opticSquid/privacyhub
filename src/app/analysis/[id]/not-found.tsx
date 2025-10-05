@@ -37,7 +37,7 @@ export default function NotFound() {
         
         <div className="mt-8 p-4 bg-blue-50 rounded-lg border border-blue-200">
           <p className="text-sm text-blue-800">
-            <strong>Looking for a specific website?</strong> Use our analyzer to create a new privacy analysis 
+            <strong>Looking for a specific website?</strong> Use our privacy policy analyser to create a new analysis
             or browse our community database for existing analyses.
           </p>
         </div>

@@ -20,7 +20,7 @@ export function Footer() {
               </div>
             </Link>
             <p className="text-gray-600 max-w-md">
-              Professional privacy policy analysis powered by AI. Understand how websites handle your personal data with comprehensive scoring and regulatory compliance checks.
+              Professional privacy policy analyser powered by AI. Understand how websites handle your personal data with comprehensive scoring and regulatory compliance checks.
             </p>
           </div>
 
@@ -30,7 +30,7 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link href="/" className="text-gray-600 hover:text-blue-600 transition-colors">
-                  Privacy Analyzer
+                  Privacy Policy Analyser
                 </Link>
               </li>
               <li>
